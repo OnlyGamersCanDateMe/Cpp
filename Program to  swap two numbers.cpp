@@ -21,7 +21,7 @@ int main()
     var2= temp;
     
     cout << "var1" << "\t"<< var1 <<endl;
-    cout MM "var2" << "\t" <<var2 << endl;
+    cout << "var2" << "\t" <<var2 << endl;
     
     
     return 0;
