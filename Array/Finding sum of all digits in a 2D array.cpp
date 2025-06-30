@@ -11,7 +11,7 @@ int main() {
     {
         for (int j = 0; j<5; j++)//column
         {
-            cout << endl << "Row is :" << i << "column is: " << j << "Enter a value:";
+            cout << endl << "Row is :" << i << "Column is: " << j << "Enter a value:";
             cin >> arr [i][j];
         }
     }
@@ -23,7 +23,7 @@ int main() {
             sum += arr[i][j];
         }
     }
-    cout << "sum is :" << sum ;
+    cout << "Sum is :" << sum ;
     
     return 0;
  

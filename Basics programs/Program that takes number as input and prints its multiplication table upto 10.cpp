@@ -7,7 +7,7 @@ int main( )
     
     //input
     
-    cout<< "enter a num:" << endl;
+    cout<< "Enter a num:" << endl;
     cin >> num;
     
     cout<< num << "*" << "1" <<"=" << num*1 << endl;

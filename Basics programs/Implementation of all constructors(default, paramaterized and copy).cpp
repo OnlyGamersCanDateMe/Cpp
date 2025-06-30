@@ -34,7 +34,7 @@ public:
 
 void mobile::getMobileData()
 {
-    cout << endl << "name:" << name << endl;
+    cout << endl << "Name:" << name << endl;
     cout << endl << "RAM:" << RAM << endl;
     cout << endl << "Processor:" << processor << endl;
     cout << endl << "Battery:" << battery << endl;

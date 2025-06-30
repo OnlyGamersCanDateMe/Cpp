@@ -20,8 +20,8 @@ int main()
     var1 = var2;
     var2= temp;
     
-    cout << "var1" << "\t"<< var1 <<endl;
-    cout << "var2" << "\t" <<var2 << endl;
+    cout << "Var1" << "\t"<< var1 <<endl;
+    cout << "Var2" << "\t" <<var2 << endl;
     
     
     return 0;

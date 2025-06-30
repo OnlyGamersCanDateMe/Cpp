@@ -27,8 +27,8 @@ int main() {
         }
         count = 1;
     }
-    cout << "most recurring element in the array is :" << maxo << endl;
-    cout << "maximum time it is occuring is:" << maxcount << endl;
+    cout << "Most recurring element in the array is :" << maxo << endl;
+    cout << "Maximum time it is occuring is:" << maxcount << endl;
     
     
     return 0;
