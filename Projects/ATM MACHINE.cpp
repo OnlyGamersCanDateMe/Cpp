@@ -76,7 +76,7 @@ class atm                        //class atm
         }
         else               //Does not update if old mobile no does not match
         {
-            cout << endl << "Incorrect !!! Old Mobile no";
+            cout << endl << "Incorrect !!! Old Mobile No";
             cin.ignore();
             cin.get( );
         }
@@ -88,7 +88,7 @@ class atm                        //class atm
         if ( amount_a > 0 && amount_a<  balance)         // check entered amount validity
         {
             balance -= amount_a;
-            cout << endl <<  "Please collect your cash";
+            cout << endl <<  "Please Collect Your Cash";
             cout << endl << "Available Balance:" << balance;
             cin.ignore();
             cin.get( );
@@ -112,7 +112,7 @@ class atm                        //class atm
         //created user (object)
         atm user1;
         //set user details(into object)
-        user1.setData(1234567,"Tim", 1111, 210000000, "9999999999");
+        user1.setData(1234567,"Tim", 1111, 2100000, "99999");
         
         
         do
@@ -141,8 +141,8 @@ class atm                        //class atm
                     cout <<   endl << "****Welcome to ATM ****" << endl;
                     cout << endl << "Select Options";
                     cout << endl << "1. Check Balance";
-                    cout << endl << "2. Cash withdraw";
-                    cout << endl << "3. Show user details";
+                    cout << endl << "2. Cash Withdraw";
+                    cout << endl << "3. Show User Details";
                     cout << endl << "4. Update Mobile No.";
                     cout << endl << "5. Exit" << endl;
                     cin >> choice;
@@ -157,13 +157,13 @@ class atm                        //class atm
                             break;
                             
                         case 2:      // if user presses 2
-                            cout << endl << "Enter the amount:";
+                            cout << endl << "Enter The Amount:";
                             cin >> amount;
                             user1.cashWithDraw(amount);
                             break;
                             
                         case 3:
-                            cout << endl << "*** User Detail are :-";
+                            cout << endl << "*** User Detail Are :-";
                             cout << endl << "--> Account No :" <<  user1.getAccountNo();
                             cout << endl << "--> Name :" << user1.getName();
                             cout << endl << "--> Balance :" << user1.getBalance();
@@ -178,7 +178,7 @@ class atm                        //class atm
                             cout << endl  << "Enter Old Mobile No.";
                             cin >> oldMobileNo;
                             
-                            cout << endl << "Enter new mobile  no.";
+                            cout << endl << "Enter New Mobile No.";
                             cin >> newMobileNo;
                             
                             user1.setMobile(oldMobileNo, newMobileNo);
@@ -188,14 +188,14 @@ class atm                        //class atm
                             exit(0);
                             
                         default:
-                            cout << endl << "Enter vaild data!";
+                            cout << endl << "Enter Vaild Data!";
                     }
                     
                 } while (1);
             }
             else
             {
-                cout << endl << "User details are invalid !!!";
+                cout << endl << "User Details Are Invalid !!!";
                 cin.ignore();
                 cin.get( );
             }
