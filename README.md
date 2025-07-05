@@ -1,1 +1,1 @@
-This repository contains a collection of beginner to intermediate level C++ programs that demonstrate core programming concepts. Ideal for students, freshers, and anyone starting their journey with C++.
+This repository contains a collection of beginner to advanced level C++ programs that demonstrate core programming concepts. Ideal for students, freshers, and anyone starting their journey with C++.
