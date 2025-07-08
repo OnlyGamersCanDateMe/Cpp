@@ -1,9 +1,3 @@
-//
-//  Program to find area and parameter of a rectangle.cpp
-//  
-//
-//  Created by Shivam Mishra on 21/06/25.
-//
 
 #include <iostream>
 using namespace std;
