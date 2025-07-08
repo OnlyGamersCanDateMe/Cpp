@@ -27,12 +27,14 @@ It allows you to manage student records — including adding, viewing, deleting,
 ---
 
 ## 📂 File Structure
+<pre>
 STUDENT MANAGEMENT/
-├── StudentManagement.cpp       # Main C++ source file
-├── Stu.txt                     # Stores active student records (binary)
-├── Trash.txt                   # Stores deleted records (binary)
-├── Temp.txt                    # Temporary file used during deletion
-├── README.md                   # Project description and usage
+├── StudentManagement.cpp       # 🔹 Main C++ source file
+├── Stu.txt                     # 🗂️ Active student records (binary)
+├── Trash.txt                   # 🗑️ Deleted records (binary)
+├── Temp.txt                    # ⚙️ Temp file used during deletion
+├── README.md                   # 📘 Project description and usage
+</pre>
 
 
 ---
