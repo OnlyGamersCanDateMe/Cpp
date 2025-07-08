@@ -44,7 +44,7 @@ Welcome to my personal C++ repository — a structured collection of programs an
 
 ## 🚀 Featured Project
 
-### 🔹 [Student Management System](./Projects/STUDENT%20MANAGEMENT%20SYSTEM)
+### 🔹 [Student Management System](./Projects/Student%20Management%20System)
 
 > A complete student record management app in C++ using classes, binary file handling, and pointer-based I/O.
 
