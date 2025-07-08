@@ -28,29 +28,12 @@ Welcome to my personal C++ repository — a structured collection of programs an
 
 ### 🔹 [ATM Machine Simulator](./Projects/ATM%20MACHINE)
 
-    A fully functional ATM simulation in C++ using classes, encapsulation, and input handling.
+> A fully functional ATM simulation in C++ using classes, encapsulation, and input handling.
 
 - 💳 User login with Account No & PIN
 - 💰 Balance check, withdrawal, mobile number update
 - 🔐 Encapsulated class design
 - 🧠 OOP concepts in action
-
-###🔷 [Student Management System](./Projects/SMS)
-
-    A console-based student record management project in C++ using classes, file handling, and binary storage.
-
-    •    📝 Add, read, and delete student records
-    •    🗂️ Soft delete with recovery from Trash
-    •    💾 Binary file operations (write, read)
-    •    📦 Object-oriented design and pointer usage
-
-⸻
-
-## 🧑‍🏫 Learning Outcomes
--    ✅ Applied object-oriented programming in real use case
--    ✅ Practiced binary file handling in C++ with fstream
--    ✅ Gained hands-on with class design, file I/O, and memory management
--    ✅ Created a CRUD-style C++ application with persistence
 
 ## 🎓 Learning Outcomes
 
@@ -59,6 +42,23 @@ Welcome to my personal C++ repository — a structured collection of programs an
 - ✅ Understood core object-oriented principles
 - ✅ Created real-world C++ application simulations
 
+## 🚀 Featured Project
+
+### 🔹 [Student Management System](./Projects/STUDENT%20MANAGEMENT%20SYSTEM)
+
+> A complete student record management app in C++ using classes, binary file handling, and pointer-based I/O.
+
+- 📝 Add, view, and delete student records
+- 🗑️ Recover deleted entries from Trash
+- 💾 Binary file I/O with `fstream`
+- 🧠 Object-oriented design with class encapsulation
+
+## 🎓 Learning Outcomes
+
+- ✅ Practiced file handling with binary streams
+- ✅ Built CRUD operations using OOP principles
+- ✅ Gained experience with pointers, classes, and memory
+- ✅ Simulated a real-world academic record system in C++
 
 
 ## 🚧 In Progress
