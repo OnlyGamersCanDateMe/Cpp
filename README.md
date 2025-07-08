@@ -60,7 +60,24 @@ Welcome to my personal C++ repository — a structured collection of programs an
 - ✅ Gained experience with pointers, classes, and memory
 - ✅ Simulated a real-world academic record system in C++
 
+## 🚀 Featured Project
 
+### 🔹 [C++ Keylogger (Windows Only)](./Projects/Keylogger)
+
+> A hidden keylogger tool written in C++ using Windows API for educational system-level learning.
+
+- 🛡️ Uses `GetAsyncKeyState()` to monitor keystrokes  
+- 📥 Logs alphanumeric and special keys into `Data.txt`  
+- 🔐 Detects modifier keys and combinations (Shift + Number, etc.)  
+- 🎯 Hides console window using `ShowWindow()`  
+- 🧠 Practice Windows header files and low-level event capturing
+
+## 🎓 Learning Outcomes
+
+- ✅ Explored low-level system programming on Windows  
+- ✅ Gained hands-on experience with `Windows.h` and key state monitoring  
+- ✅ Understood real-time file I/O and virtual key logic  
+- ✅ Developed stealth applications using console control
 ## 🚧 In Progress
 
 This repository is being actively updated as I learn new topics and build more projects in C++.
