@@ -28,14 +28,29 @@ Welcome to my personal C++ repository — a structured collection of programs an
 
 ### 🔹 [ATM Machine Simulator](./Projects/ATM%20MACHINE)
 
-> A fully functional ATM simulation in C++ using classes, encapsulation, and input handling.
+    A fully functional ATM simulation in C++ using classes, encapsulation, and input handling.
 
 - 💳 User login with Account No & PIN
 - 💰 Balance check, withdrawal, mobile number update
 - 🔐 Encapsulated class design
 - 🧠 OOP concepts in action
 
+###🔷 [Student Management System](./Projects/SMS)
 
+    A console-based student record management project in C++ using classes, file handling, and binary storage.
+
+    •    📝 Add, read, and delete student records
+    •    🗂️ Soft delete with recovery from Trash
+    •    💾 Binary file operations (write, read)
+    •    📦 Object-oriented design and pointer usage
+
+⸻
+
+## 🧑‍🏫 Learning Outcomes
+-    ✅ Applied object-oriented programming in real use case
+-    ✅ Practiced binary file handling in C++ with fstream
+-    ✅ Gained hands-on with class design, file I/O, and memory management
+-    ✅ Created a CRUD-style C++ application with persistence
 
 ## 🎓 Learning Outcomes
 
