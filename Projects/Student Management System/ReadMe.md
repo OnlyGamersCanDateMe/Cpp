@@ -62,25 +62,26 @@ STUDENT MANAGEMENT/
     0. Exit
     
     
-🧠 Key Concepts Covered
-    •    Classes and Objects in C++
-    •    File input/output (ifstream, ofstream)
-    •    Binary file operations using write() and read()
-    •    Pointer casting: (char*)&object
-    •    Basic menu loops with do-while and switch-case
-    •    Modular programming
+### Key Concepts Covered
+
+- Classes and Objects in C++
+- File input/output (`ifstream`, `ofstream`)
+- Binary file operations with `write()` and `read()`
+- Pointer casting: `(char*)&object`
+- Menu control with `switch-case` and `do-while`
+- Modular function design
 
 ⸻
 
 📎 Notes
-    •    Binary files are used to preserve object structure.
-    •    Deleted records are moved to Trash.txt, not permanently deleted.
-    •    This version is for Linux/macOS. On Windows, replace system("clear") with system("cls").
+    -    Binary files are used to preserve object structure.
+    -    Deleted records are moved to Trash.txt, not permanently deleted.
+    -    This version is for Linux/macOS. On Windows, replace system("clear") with system("cls").
 
 ⸻
 
 🙋‍♂️ Author
-    •    Created by Shivam
+    -    Created by Shivam
 
 📄 License
 
