@@ -5,13 +5,20 @@ A clean, fully functional calculator application built using **C++ and Qt5**, st
 ---
 
 ## 📁 Project Structure
+<pre>
+```bash
 AndroidCalculator/
-├── main.cpp                  # Application entry point
-├── calculator.h              # Header file for Calculator class
-├── calculator.cpp            # Logic implementation
-├── calculator.ui            # Designed UI file (Qt Designer)
-├── AndroidCalculator.pro     # Qt project configuration
-├── Build
+├── AndroidCalculator.pro       # Qt project file
+├── calculator.ui               # UI design (Qt Designer)
+├── calculator.h                # Header file
+├── calculator.cpp              # Logic implementation
+├── main.cpp                    # Entry point
+├── SS.png                      # Screenshot
+├── .gitignore                  # Ignores Qt build files
+└── README.md                   # This file
+```
+</pre>
+
 
 ---
 
@@ -45,7 +52,6 @@ AndroidCalculator/
 
 ---
 
-## 📸 Screenshots
 
 ## 📸 Screenshot
 
