@@ -1,0 +1,32 @@
+# Qt build files
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.user
+*.pro.user
+*.qmake.stash
+*.autosave
+*.moc
+*.qmlc
+*.jsc
+Makefile*
+CMakeFiles/
+CMakeCache.txt
+*.app
+*.dSYM/
+*.ncb
+*.sdf
+*.suo
+*.vcxproj*
+build*/
+.idea/
+.vscode/
+*.log
+
+# Android/Java specific
+.gradle/
+build/
+*.iml
+local.properties
