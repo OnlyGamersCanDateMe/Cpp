@@ -3,6 +3,7 @@
 #include"QFile"
 #include"QTextStream"
 #include"QDebug"
+#include"QMessageBox"
 
 QVector<QString> getAlltheCarDetails();
 
@@ -26,6 +27,60 @@ bookCar::~bookCar()
 
 void bookCar::on_bookcarbutton_clicked()
 {
+    QVector<QString> bookCarDetails;
+    bookCarDetails.append(ui->namelineedit->text());
+    bookCarDetails.append(ui->agelineedit->text());
+    bookCarDetails.append(ui->pickuplineedit->text());
+    bookCarDetails.append(ui->destinationlineedit->text());
+
+    bool male = ui->maleradiobutton->isChecked();
+    bool female = ui->femaleradiobutton->isChecked();
+    if(male){
+        bookCarDetails.append("male");
+
+    }
+    else{
+        bookCarDetails.append("female");
+    }
+
+    QListWidgetItem *selectedCar = ui->selectcarlistwidget->currentItem();
+    QString selectedCarDetails= selectedCar -> text();
+
+    bookCarDetails.append(selectedCarDetails);
+
+    QFile file("BookCarData.txt");
+
+    if(file.open(QIODevice::Append| QIODevice::Text)){
+        QTextStream stream(&file);
+
+        for(int i=0;i<bookCarDetails.size();i++){
+            stream << bookCarDetails[i] << "";
+        }
+        stream << "\n";
+
+    }
+    file.close();
+
+
+    QModelIndex currentIndex = ui->selectcarlistwidget -> currentIndex();
+    int currentRow = currentIndex.row();
+
+    QVector<QString> allcarData = getAlltheCarDetails();
+    allcarData.remove(currentRow);
+
+    QFile file2("CarData.txt");
+
+    if(file2.open(QIODevice::WriteOnly | QIODevice::Text)){
+        QTextStream stream(&file2);
+
+        for(int i=0;i<allcarData.size();i++){
+            stream << allcarData[i] << "\n";
+        }
+        stream << "\n";
+
+    }
+    file2.close();
+    QMessageBox::information(0,"Booking Status","Booking Successful");
 
 }
 
