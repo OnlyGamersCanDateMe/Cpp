@@ -33,7 +33,7 @@ A modern desktop-based **Car Booking System** built using **Qt5 (C++ GUI Framewo
 ---
 
 ## 📂 Project Structure
-<br>
+```text
 CarBookingSystem/
 ├── addcar.cpp / .h / .ui      # Add car module
 ├── bookcar.cpp / .h / .ui     # Booking module
@@ -43,7 +43,7 @@ CarBookingSystem/
 ├── CarBookingSystem.pro       # Qt project file
 ├── ReadMe.md                  # This file
 └── build/                     # Build artifacts (ignored)
-<br\>
+```
 
 ---
 
