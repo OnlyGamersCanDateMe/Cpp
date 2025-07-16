@@ -12,6 +12,9 @@ bookCar::bookCar(QWidget *parent)
     , ui(new Ui::bookCar)
 {
     ui->setupUi(this);
+    QPixmap pix("/Users/shonty/Downloads/Audi rs6.jpeg");
+    ui->label->setPixmap(pix);
+
     QVector<QString> carData = getAlltheCarDetails();
 
     for (int i=0; i<carData.size(); i++){
@@ -104,5 +107,11 @@ QVector<QString> getAlltheCarDetails(){
     }
     file.close();
     return getData;
+}
+
+
+void bookCar::on_exitbutton_clicked()
+{
+    QApplication::exit();
 }
 

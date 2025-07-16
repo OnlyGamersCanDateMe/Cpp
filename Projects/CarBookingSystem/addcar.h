@@ -21,6 +21,8 @@ private slots:
 
     void on_addcarbutton_clicked();
 
+    void on_exitbutton_clicked();
+
 private:
     Ui::addCar *ui;
 };

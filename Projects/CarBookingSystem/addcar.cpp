@@ -9,6 +9,8 @@ addCar::addCar(QWidget *parent)
     , ui(new Ui::addCar)
 {
     ui->setupUi(this);
+    QPixmap pix("/Users/shonty/Downloads/Audi rs6.jpeg");
+    ui->label->setPixmap(pix);
     ui-> cartypelistwidget->addItem("Mini");
     ui-> cartypelistwidget->addItem("Sedan");
     ui-> cartypelistwidget->addItem("SUV");
@@ -51,3 +53,9 @@ void addCar::on_farelistwidget_currentItemChanged()
 {
     // Empty implementation — does nothing
 }
+
+void addCar::on_exitbutton_clicked()
+{
+    QApplication::exit();
+}
+
