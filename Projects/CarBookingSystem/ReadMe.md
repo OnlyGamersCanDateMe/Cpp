@@ -8,7 +8,6 @@ A modern desktop-based **Car Booking System** built using **Qt5 (C++ GUI Framewo
 
 - 🔍 **Search Cars** by type, availability, or price
 - 🧾 **Book Cars** with customer details and date ranges
-- ❌ **Cancel Bookings** with confirmation
 - 🗂️ **View All Bookings** in a clean table view
 - 🛡️ Basic **admin authentication**
 - 💾 **File-based data storage** using `.txt` or `.csv`
