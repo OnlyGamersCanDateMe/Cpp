@@ -2,12 +2,15 @@
 #include "ui_login.h"
 #include "QDebug"
 #include"QMessageBox"
+#include"QPixmap"
 
 login::login(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::login)
 {
     ui->setupUi(this);
+    QPixmap pix("/Users/shonty/Downloads/Audi rs6.jpeg");
+    ui->label->setPixmap(pix);
 }
 
 login::~login()
